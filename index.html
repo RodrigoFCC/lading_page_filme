@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Disney+</title>
+    <link rel="stylesheet" href="dist/css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Toy_Story_logo.svg/2560px-Toy_Story_logo.svg.png" alt="Toy_Story_logo">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#" class="button button--secondary">Assista agora</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Entrar</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero__content">
+            <div class="hero__content__branding">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Toy_Story_logo.svg/2560px-Toy_Story_logo.svg.png" alt="Toy_Story_logo">
+            </div>
+            <h3 class="title">
+                "Amigo estou aqui..."
+            </h3>
+            <ul class="hero__content__combos">
+                <li class="hero__content__combos__combo">
+                    <p class="title--small">
+                        Saiba mais sobre o filme
+                    </p>
+                    <a href="#sinopse">
+                    <button class="button">Sinopse</button>
+                    </a>
+                </li>
+                <li class="hero__content__combos__combo">
+                    <p class="title--small">
+                        Saiba mais sobre os seus favoritos
+                    </p>
+                    <a href="#personagens">
+                    <button class="button">Personagens</button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="personagens" class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
+                Personagens
+            </button>
+            <button data-tab-button="populares" class="shows__tabs__button">
+                Mais populares
+            </button>
+            <button data-tab-button="star_plus" class="shows__tabs__button">
+                Filmes
+            </button>
+        </nav>
+        <ul data-tab-id="em_breve" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="https://s3.amazonaws.com/blog.dentrodahistoria.com.br/wp-content/uploads/2023/02/14175424/woody-1.jpg" alt="Spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="https://s3.amazonaws.com/blog.dentrodahistoria.com.br/wp-content/uploads/2023/02/14174643/buzz-toy-story.jpg" alt="Spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="https://s3.amazonaws.com/blog.dentrodahistoria.com.br/wp-content/uploads/2023/02/14174717/jessie-toy-story.jpg" alt="Spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="https://s3.amazonaws.com/blog.dentrodahistoria.com.br/wp-content/uploads/2023/02/14174810/slinky-toy-story.jpg" alt="Spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="https://s3.amazonaws.com/blog.dentrodahistoria.com.br/wp-content/uploads/2023/02/14174751/rex-toy-story.jpg" alt="Spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="https://s3.amazonaws.com/blog.dentrodahistoria.com.br/wp-content/uploads/2023/02/14174700/Cabeca-de-Batata-toy-story.jpg" alt="Spidey">
+            </li>
+        </ul>
+        <ul data-tab-id="populares" class="shows__list">
+            <li class="shows__list__item">
+                <img src="https://s3.amazonaws.com/blog.dentrodahistoria.com.br/wp-content/uploads/2023/02/14174700/Cabeca-de-Batata-toy-story.jpg" alt="Obi Wan">
+            </li>
+            <li class="shows__list__item">
+                <img src="https://s3.amazonaws.com/blog.dentrodahistoria.com.br/wp-content/uploads/2023/02/14174810/slinky-toy-story.jpg" alt="Spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="https://s3.amazonaws.com/blog.dentrodahistoria.com.br/wp-content/uploads/2023/02/14174643/buzz-toy-story.jpg" alt="Spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="https://s3.amazonaws.com/blog.dentrodahistoria.com.br/wp-content/uploads/2023/02/14174717/jessie-toy-story.jpg" alt="Spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="https://s3.amazonaws.com/blog.dentrodahistoria.com.br/wp-content/uploads/2023/02/14175424/woody-1.jpg" alt="Spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="https://s3.amazonaws.com/blog.dentrodahistoria.com.br/wp-content/uploads/2023/02/14174751/rex-toy-story.jpg" alt="Spidey">
+            </li>
+        </ul>
+        <ul data-tab-id="star_plus" class="shows__list">
+            <li class="shows__list__item">
+                <img src="https://oquartonerd.com.br/wp-content/uploads/2020/11/00-Toy-Story-1995.jpg" alt="Libertadores">
+            </li>
+            <li class="shows__list__item">
+                <img src="https://pop.proddigital.com.br/wp-content/uploads/sites/8/2023/02/01-24.jpg" alt="Spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/toy-story-4-characters-1561289306.jpg?crop=0.9365853658536586xw:1xh;center,top&resize=1200:*" alt="Spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="https://disneyplusbrasil.com.br/wp-content/uploads/2022/02/Toy-Story-2-Pixar-Disney-Plus.jpg" alt="Spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="https://stateless-fueradefoco.storage.googleapis.com/wp-content/uploads/2023/02/29203658/FUERA-DE-foco-55-1-1-1024x576.webp" alt="Spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="https://e.rpp-noticias.io/xlarge/2023/02/08/142214_1386207.jpg" alt="Spidey">
+            </li>
+        </ul>
+    </section>
+    <section class="plans">
+        <h2 class="title--big">Escolha seu plano</h2>
+        <ul class="plans__list">
+            <li class="plans__list__item">
+                <img src="https://s3.amazonaws.com/blog.dentrodahistoria.com.br/wp-content/uploads/2023/02/14175424/woody-1.jpg" alt="Woody">
+                <strong class="title--small">Woody</strong>
+                <p class="text--big">
+                    Ele é o brinquedo favorito de Andy desde o "Jardim-de-Infância", com um lugar especial sobre a cama de Andy, e é o líder dos brinquedos.
+                </p>
+                <button class="button">Escolher</button>
+            </li>
+            <li class="plans__list__item">
+                <img src="https://s3.amazonaws.com/blog.dentrodahistoria.com.br/wp-content/uploads/2023/02/14174643/buzz-toy-story.jpg" alt="Buzz Lightear">
+                <strong class="title--small">Buzz Lightear</strong>
+                <p class="text--big">
+                    Um brinquedo moderno, com voz eletrônica, asas e laser. Andy ganhou em sua festa de aniversário, causando ciúmes em Woody.
+                </p>
+                <button class="button">Escolher</button>
+            </li>
+            <li class="plans__list__item">
+                <img src="https://s3.amazonaws.com/blog.dentrodahistoria.com.br/wp-content/uploads/2023/02/14174717/jessie-toy-story.jpg" alt="Jessie">
+                <strong class="title--small">Jessie</strong>
+                <p class="text--big">
+                    Ela é modelada de acordo com um personagem ficcional de uma série de televisão antiga, chamada “O Rodeio de Woody”
+                </p>
+                <button class="button">Escolher</button>
+            </li>
+        </ul>
+    </section>
+    <section id="sinopse" class="image-text-section">
+        <img src="https://internacionaldaamazoniacom.files.wordpress.com/2021/07/toy-story.jpg" alt="Imagem com TV, Computador, tablet e celular">
+        <div class="image-text-section__text_container">
+            <h2 class="title">Sinopse</h2>
+            <p class="text--big">
+                O aniversário do garoto Andy está chegando e seus brinquedos ficam nervosos, temendo que ele ganhe novos brinquedos que possam substituí-los. Liderados pelo caubói Woody, o brinquedo predileto de Andy, eles recebem Buzz Lightyear, o boneco de um patrulheiro espacial, que logo passa a receber mais atenção do garoto. Com ciúmes, Woody tenta ensiná-lo uma lição, mas Buzz cai pela janela. É o início da aventura do caubói, que precisa resgatar Buzz para limpar sua barra com os outros brinquedos.            </p>
+        </div>
+    </section>
+    <section class="available-devices">
+        <h2 class="title">Disponível nos seus dispositivos favoritos</h2>
+        <ul class="available-devices__list">
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/computador.png" alt="Computador">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>Chrome OS</li>
+                    <li>MacOS</li>
+                    <li>PC Windows</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/tv.png" alt="Computador">
+                <h4 class="title--small">TV</h4>
+                <ul class="text">
+                    <li>Amazon Fire TV</li>
+                    <li>Android TV</li>
+                    <li>Apple TV</li>
+                    <li>Chromecast</li>
+                    <li>TVs LG</li>
+                    <li>Roku</li>
+                    <li>Samsung</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/videogames.png" alt="Computador">
+                <h4 class="title--small">Videogames</h4>
+                <ul class="text">
+                    <li>PS4</li>
+                    <li>PS5</li>
+                    <li>Xbox One</li>
+                    <li>Xbox Series X</li>
+                    <li>Xbox Series S</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/celular.png" alt="Computador">
+                <h4 class="title--small">Celulares e tablets</h4>
+                <ul class="text">
+                    <li>Tablets Amazon Fire</li>
+                    <li>Celulares e Tablets Android</li>
+                    <li>iPhone e iPad</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section class="faq">
+        <h2 class="title">Perguntas frequentes</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Qual é o personagem principal do toy story?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    O personagem principal do Toy Story é um brinquedo chamado Woody, que é um cowboy de pano. Ele é o líder dos brinquedos do quarto de Andy, o garoto que possui os brinquedos, e é muito querido por todos os outros personagens do filme. Woody é dublado por Tom Hanks na versão original em inglês e é um dos personagens mais icônicos da franquia Toy Story.
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Quantos filmes do toy story existem?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Existem quatro filmes principais da franquia Toy Story. São eles: <br>
+
+                    1. Toy Story (1995) <br>
+                    2. Toy Story 2 (1999) <br>
+                    3. Toy Story 3 (2010) <br>
+                    4. Toy Story 4 (2019) <br>
+                    
+                    Além dos filmes principais, também existem curtas-metragens e especiais de televisão relacionados a Toy Story. Essa franquia da Pixar Animation Studios é muito querida pelo público e cada filme continua a história dos adoráveis brinquedos liderados por Woody e Buzz Lightyear.
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Qual foi o filme de toy story com maior bilheteria?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    O filme de Toy Story com a maior bilheteria até o meu conhecimento em setembro de 2021 é Toy Story 4, lançado em 2019. O filme arrecadou mais de 1 bilhão de dólares em bilheteria mundial. Ele se tornou o filme de maior bilheteria da franquia até então. No entanto, é importante ressaltar que informações sobre bilheterias podem mudar ao longo do tempo, então é possível que novos filmes ou atualizações possam alterar essa posição.
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Toy_Story_logo.svg/2560px-Toy_Story_logo.svg.png" alt="Toy_Story_logo">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="./dist/images/icones/globe.svg" alt="Globo do mundo">
+                        <select>
+                            <option>English</option>
+                            <option selected>Português</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Termos e Condições de Uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="" class="text--small">Política de privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Proteção de Dados no Brasil</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Anúncios personalizados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="" class="text--small">
+                        Dispositivos compatíveis
+                    </a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Ajuda</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="" class="text--small">Sobre o Toy Story</a>
+                </li>
+            </ul>
+            <p class="text--small">
+                ® 2022 Disney, Toy Story. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.
+            </p>
+        </div>
+    </footer>
+
+    
+
+    <script src="./dist/js/main.js"></script>
+</body>
+</html>
